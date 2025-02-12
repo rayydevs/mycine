@@ -1,0 +1,81 @@
+/* Container Principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Formulário de Compra */
+.formulario {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+h2 {
+  color: #4dbf00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #4dbf00;
+}
+
+.lugares, .Combos, .Compra {
+  margin-top: 20px;
+}
+
+.lugares label, .Combos label, .Compra label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+.cartao label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #4dbf00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a800;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+}
+
+button[type="reset"]:hover {
+  background-color: #e53935;
+}

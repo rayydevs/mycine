@@ -1,0 +1,80 @@
+/* Contêiner de Contato */
+.contato-container {
+  max-width: 400px; /* Ajuste para centralizar melhor */
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #222; /* Fundo um pouco mais claro para destaque */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #333; /* Borda mais escura */
+  border-radius: 5px;
+  background-color: #333; /* Fundo de input escuro */
+  color: white;
+  font-size: 14px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4dbf00; /* Botão verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a800; /* Efeito de hover mais escuro */
+}
+
+/* Link para voltar à página inicial */
+.inicial {
+  display: block;
+  margin-top: 15px;
+  color: #4dbf00;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.inicial:hover {
+  text-decoration: underline;
+}

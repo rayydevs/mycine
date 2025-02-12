@@ -1,0 +1,100 @@
+/* Featured Content */
+.featured-content {
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  color: white;
+  position: relative;
+  min-height: 300px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.featured-desc {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+.featured-title {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Movie List */
+.movie-list-container {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.movie-list-title-h1 {
+  color: #4dbf00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.movie-list-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.movie-list {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+
+.movie-list-item {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie-list-item-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.movie-list-item-title {
+  font-size: 18px;
+  margin-top: 15px;
+  color: white;
+}
+
+.movie-list-item-desc {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #bbb;
+}
+
+/* Arrow for Carousel */
+.arrow {
+  font-size: 30px;
+  color: #4dbf00;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
